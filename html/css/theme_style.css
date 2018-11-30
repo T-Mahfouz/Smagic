@@ -6952,7 +6952,7 @@ nav-tabs>li {
 }
 .borderBox.light>.borderBox-title>.nav-tabs>li>a {
     margin: 0;
-    padding: 12px 13px 13px;
+    padding: 12px 30px 13px;
     font-size: 14px;
     color: #1a1b27;
 	font-weight:700;
@@ -6973,7 +6973,7 @@ nav-tabs>li {
 }
 .borderBox.light>.borderBox-title>.nav-tabs>li>a {
     margin: 0;
-    padding: 12px 13px 13px;
+    padding: 12px 30px 13px;
     font-size: 13px;
     color: #1a1b27;
 }

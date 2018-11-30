@@ -407,7 +407,7 @@ ul.activity-list .avatar img{
 }
 
 .slimScrollDiv {
-	padding-top: 90px;
+	padding-top: 0;
     background: #1a1a26;
 	/*height: 70vh !important;*/
 }
@@ -416,12 +416,26 @@ ul.activity-list .avatar img{
 	    background: #151524;
 }
 .left-sidemenu {
-	position:relative;
+    position:relative;
+    /* margin-top: 80px; */
 }
+.sidebar-container {
+    /* padding-top: 80px; */
+}
+.white-sidebar-color .sidemenu-container {
+    background-color: #1a1925;
+    padding-top: 6rem;
+}
+.slimScrollBar, .slimScrollRail {
+    left:1px !important;
+    right:inherit !important;
+}
+ul.sidemenu.page-header-fixed.slimscroll-style {height: 70vh!important;}
 #userIds {
     position: absolute;
-    bottom: 0;
+    bottom: 6rem;
     width: 100%;
+    
 	}
 	
 	.form-horizontal .control-label {
@@ -489,7 +503,7 @@ ul.activity-list .avatar img{
   background-position: center;
 }
 .borderBox-body .caption  {
-	    margin-top: 6rem;
+	    margin-top: 1rem;
 }
 
 
@@ -500,4 +514,22 @@ ul.activity-list .avatar img{
 }
 .btn-info {
 	padding:10px 30px;
+}
+
+.sidemenu-container .sidemenu>li.active > a.nav-link  {
+    border-right:5px #67b930 solid !important;
+}
+
+
+.borderBox.light>.borderBox-title>.nav-tabs>li>a.active {
+    color:#67b930 !important;
+}
+.caption-subject a.edit {
+    color:#67b930 !important;
+    font-size:13px;
+    font-weight: 400;
+    margin-right:20px;
+}
+.tab-content>.tab-pane {
+    padding: 3rem;
 }
